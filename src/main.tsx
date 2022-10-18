@@ -12,6 +12,7 @@ function Counter() {
       <button type="button" onClick={increment}>
         {count()}
       </button>
+      <p>ボタンの下に、この文章を書いてみました。</p>
     </>
   );
 }
